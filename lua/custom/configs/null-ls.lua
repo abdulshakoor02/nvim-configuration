@@ -11,6 +11,7 @@ local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 local sources = {
    formatting.prettier,
    formatting.stylua,
+  formatting.gofmt,
 
    lint.shellcheck,
 }
